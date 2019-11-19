@@ -7,8 +7,7 @@ class Client {
     protected $historic_index = 0;
     protected $historic_log_data = [];
 
-    public static $timeframe = 3;
-    // public static $timeframe = (60 * 60) * 24; // Commented out for the purposes of testing.
+    public static $timeframe = 3; // public static $timeframe = (60 * 60) * 24; // Commented out for the purposes of testing.
 
     /**
      * This function instantiates our Client class with a fresh historic log data array at index 0.
