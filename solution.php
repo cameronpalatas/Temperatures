@@ -92,7 +92,7 @@ class Client {
      * This function gets the maximum value of our historic log data at index $this->historic_index from $this->maximum.
      * 
      * @access public
-     * @return void
+     * @return float
      */
     public function getMaximum()
     {
@@ -103,7 +103,7 @@ class Client {
      * This function gets the average value of our historic log data at index $this->historic_index from $this->average.
      * 
      * @access public
-     * @return void
+     * @return float
      */
     public function getAverage()
     {
